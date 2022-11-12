@@ -1,0 +1,56 @@
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: 1B244A;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 5vh auto;
+}
+
+h1 {
+    font-family: digital, Arial, Helvetica, sans-serif;
+    color: F94F6D;
+    border: red 2px solid;
+    padding: 10px 0;
+    font-size: 3em;
+    margin: 10px 0;
+    background-color: 080001;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:EEEEEE;
+    /* border: green solid 4px; */
+    margin: 0;
+}
+
+button {
+    color: 9AABD8;
+    font-family: digital, Arial, Helvetica, sans-serif;
+    background-color: 1B244A; 
+    border: none;
+    text-decoration: none;
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.home-container, .guest-container {
+    text-align: center;
+    /* border: blue solid 3px; */
+}
+
+.newgame-btn {
+    margin: 0 auto;
+    display: block;
+}
